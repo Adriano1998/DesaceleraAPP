@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exemplo_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/desacelerasemfundo_1__2_"
+        android:label="Desacelera"
+        android:roundIcon="@drawable/desacelerasemfundo_1__2_"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Exemplo_1">
+        <activity
+            android:name=".Activity12EsqueciSenha"
+            android:exported="false" />
+        <activity
+            android:name=".Activity11Redirecionamento"
+            android:exported="false" />
+        <activity
+            android:name=".Activity10Anamnese"
+            android:exported="false" />
+        <activity
+            android:name=".Activity9EncontreProfissional"
+            android:exported="false" />
+        <activity
+            android:name=".Activity8Profissional"
+            android:exported="false" />
+        <activity
+            android:name=".Actvity7FormUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".Activity6Login"
+            android:exported="false" />
+        <activity
+            android:name=".Activity5Exercicios"
+            android:exported="false" />
+        <activity
+            android:name=".Activity4Playlists"
+            android:exported="false" />
+        <activity
+            android:name=".Activity3Livros"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2Ajudeme"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

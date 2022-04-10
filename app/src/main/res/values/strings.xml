@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exemplo_1</string>
+    <string name="titulo">Desacelera</string>
+    <string name="linkmaisexercicios"> Mais Exercicios <![CDATA[<a href="https://www.youtube.com/watch?v=A4tkULKy7RY"></a>]]></string>
+</resources>
